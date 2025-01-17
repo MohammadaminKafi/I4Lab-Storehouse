@@ -1,0 +1,10 @@
+{% extends "admin/base_site.html" %}
+
+{% block content %}
+  <h1>Assign Part to Request Detail (ID: {{ request_detail.detail_id }})</h1>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Assign Part</button>
+  </form>
+{% endblock %}
