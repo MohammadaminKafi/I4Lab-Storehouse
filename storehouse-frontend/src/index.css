@@ -1,0 +1,30 @@
+:root {
+  --bg-color: #121212;      /* Dark background */
+  --text-color: #e0e0e0;    /* Light text */
+  --border-color: #333;     /* Darker border */
+  --accent-color: #666;     /* Accent color for hover states */
+  --button-bg: #008000;     /* Green button background */
+  --button-text: #ffffff;   /* White text on buttons */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Buttons: green background, white text */
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+button:hover {
+  background-color: var(--accent-color);
+}

@@ -1,0 +1,29 @@
+:root {
+  --bg-color: #181818;
+  --text-color: #e0e0e0;
+  --border-color: #444;
+  --accent-color: #333;
+  --button-bg: #333;
+  --button-text: #fff;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+button:hover {
+  background-color: var(--accent-color);
+}

@@ -1,0 +1,37 @@
+/* Home.css */
+.main-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh; /* Fill the vertical screen */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.left-section {
+  flex: 1;
+  border-right: 1px solid var(--border-color);
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.right-section {
+  flex: 2; /* Twice as wide as left */
+  padding: 20px;
+  overflow-y: auto;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: var(--text-color); /* Ensure heading text is visible on dark */
+}
+
+.submit-button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+}

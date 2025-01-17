@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+
+# Media files
+media/
+
+# Static files
+staticfiles/
+static/
+
+# Configuration files
+*.env
+.env
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if using frontend with Node.js)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Local files
+*.local
+*.bak
+.DS_Store
+Thumbs.db
+*.env
