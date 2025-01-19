@@ -156,3 +156,4 @@ class Borrow(models.Model):
 
     def __str__(self):
         return f"Borrow {self.borrow_id} of Part {self.part.serial_number}"
+    
